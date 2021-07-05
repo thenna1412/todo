@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>profile Page</title>
+	<script type="text/javascript" src="login.js"></script>
+	<link rel="stylesheet" type="text/css" href="login.css">
+  <script src="https://kit.fontawesome.com/f3485feeed.js" crossorigin="anonymous"></script>
+<style type="text/css">
+  
+body>h1{
+
+border-bottom: 2px solid white;
+padding: 20px;
+}
+
+.logout-button{
+
+
+  
+margin-left: 1200px;
+
+}
+
+.logout-button:hover{
+
+  color: white;
+background: #65E5F6;
+
+transition-duration: 0.5s;
+border:3px solid;
+font-weight: bold;
+}
+
+</style>
+
+</head>
+
+<body onload="profile()"  >
+
+<button onclick="window.location.href = 'todo.html'" class="back-button"><i class="fas fa-arrow-circle-left"></i> back</button>
+
+<h1 id="h1">Welcome to Profile Page!!!</h1>
+<button class="logout-button" onclick="logout()">Logout</button>
+<div id="new">
+                <label id="user">Username:</label>
+                     <div id="profile"></div><br><br>
+
+	            <label>MailID:</label>
+                      <div id="mailid"></div><br><br>
+
+                  <label>Mobile No:</label>
+                      <div id="mobileNumber"></div><br><br>
+
+                   <label>Password:</label>
+
+                   <div type="password" id="passwrd" ></div>
+                     <button class="button" onclick="pwdchange()" > change</button>  <br><br><br>
+
+
+</div>
+
+ 
+
+	
+
+
+
+
+
+
+
+</body>
+</html>                

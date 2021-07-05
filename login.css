@@ -1,0 +1,190 @@
+*{
+
+background-color:#65E5F6;
+color: white;
+font-family: 'Poppins', sans-serif;
+margin:0px;
+padding: 0px;
+font-size: 22px;
+
+
+}
+
+
+#container{
+
+
+	display: flex;
+
+}
+
+#form>input{
+
+	background-color: white;
+	border: none;
+	color: black;
+		border-radius: 5px;
+	padding-left: 10px;
+	font-weight: normal;
+	outline: none;
+}
+
+
+#new>label{
+
+
+	color: red;
+}
+
+
+#float{
+
+	float: left;
+	padding-right: 300px;
+	margin-left: 100px;
+	margin-top: 60px;
+
+}
+
+#loginPage{
+
+margin-top: 120px;
+margin-right: 100px;
+
+}
+
+p{
+
+	color: red;
+	
+}
+
+h2{
+
+	
+	font-size: 30px;
+	border-bottom: 2px solid white;
+}
+
+#loginPage>form>input{
+background-color: white;
+border: none;
+	color: black;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-weight: normal;
+	outline: none;
+
+}
+
+.button{
+
+background-color: white;
+color: black;
+width: 90px;
+border-radius: 8px;
+border: none;
+font-weight: normal;
+
+}
+
+#float>form>label{
+
+
+	font-weight: bold;
+}
+
+#loginPage>form>label{
+
+	font-weight: bold;
+
+}
+
+#formm>img{
+
+	float: left;
+	width: 500px;
+	height: 400px;
+	margin-top: 50px;
+}
+
+#form{
+
+	margin-top: 30px;
+
+}
+
+#loginPage>form{
+
+	margin-top: 30px;
+
+	
+}
+#formm>h1{
+
+	font-size: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.button:hover{
+
+
+color: white;
+background: #65E5F6;
+
+transition-duration: 0.5s;
+border:3px solid;
+font-weight: bold;
+}
+
+#h1{
+
+	text-align: center;
+
+	margin: 30px;
+	font-size: 40px;
+
+}
+
+#new{
+
+
+	margin: 50px;
+}
+
+#new>label{
+
+	color: white;
+	font-weight: bolder;
+}
+
+#passwdchnge{
+
+
+margin: 50px;
+	background-color:#65E5F6; 
+}
+
+.back-button{
+
+
+	color: white;
+
+	margin-top: 10px;
+	border: none;
+	margin-left: 10px;
+}
+
+.logout-button{
+
+background-color: white;
+color: black;
+width: 90px;
+border-radius: 5px;
+border: none;
+font-weight: normal;
+
+
+
+}

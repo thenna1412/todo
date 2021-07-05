@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="login.css">
+<script src="https://kit.fontawesome.com/f3485feeed.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+
+                            <!---SIGNUP PAGE-->
+
+<body onload="appTodo()">
+
+
+	<div id="container">
+
+		<img src="todo.png">
+<div id="formm" >
+<h1>Welcome!!!</h1>
+
+<div id="float">
+
+	
+	<h2 >SIGNUP PAGE</h2>
+
+		<form id="form" method="get">
+<label>Username </label>&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;<i class="fas fa-user"></i>
+<input id="name" type="text" name="name" placeholder="Enter name" required  ></i><br><br>
+<label>Mailid</label></label> &nbsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<i class="fas fa-envelope"></i>
+<input id="mail" type="Mailid" name="Mailid"  placeholder="Enter Email" required=""><br><br>
+<label>Mobile </label>    &nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<i class="fas fa-mobile"></i>
+<input id="mobileNo" type="No" name="Mobile" placeholder="Enter MobileNo" required=""><br><br>
+<label>Password</label> &nbsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;<i class="fas fa-lock"></i>
+<input id="password" type="Password" name="Password" placeholder="Enter Password" required=""><br><br>
+
+<label>Retype Password</label> &emsp;&emsp; <i class="fas fa-lock"></i>
+<input id="retype" type="Password" name="Password" placeholder="Enter Password" required=""><p id="repass"></p><br><br>
+
+<button type="button"  class="button" onclick="signUp()" value="button" >Signup</button>
+	</form>
+
+	</div>
+</div>
+
+                             <!---LOGIN PAGE-->
+
+
+<div id="loginPage" >
+	<h2>LOGIN PAGE</h2>
+  <form >
+  	
+    
+   <label>Mailid </label>&nbsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<i class="fas fa-envelope"></i>
+  <input id="logmail" type="Email" name="mail" placeholder="Enter Email"   required><br><br>
+
+
+  <label>Password</label> &nbsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;<i class="fas fa-lock"></i>
+
+  <input id="logpass" type="password" name="mail" placeholder="Enter password" required="">   <p id="pwd-wrng"></p>   
+  <br><br>
+
+
+<button id="logsubmit" class="button" type="button" onclick="login()" value="button"> Login</button>
+
+  </form>
+
+
+</div>
+
+<script type="text/javascript" src="login.js">
+	
+
+</script>
+</body>
+</html>

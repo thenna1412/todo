@@ -1,0 +1,120 @@
+*{
+
+margin: 0px;
+padding: 0px;
+}
+
+body{
+
+
+background-color: #f6d365;
+font-family: 'Poppins', sans-serif;
+margin-top: 60px;
+color: white;
+}
+
+header{
+
+
+	font-size: 20px;
+}
+
+header,form{
+
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 30px;
+}
+
+form>input,form>button{
+
+	font-size: 20px;
+	border: none;
+	background-color: white;
+	
+	padding: 8px;
+	border-radius: 5px;
+	margin: 1px;
+}
+
+form>button{
+
+color: #f6d365;
+
+}
+
+form>button:hover{
+
+color: white;
+background-color:#f6d365 ;
+transition-duration: 0.5s;
+
+}
+
+.todo-container{
+
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.todo-list{
+
+	list-style: none;
+
+}
+
+.todo{
+
+
+	display: flex;
+	background-color: white;
+	color: black;
+	width:290px ;
+	justify-content: space-between;
+	font-size: 23px;
+	align-items: center;
+	margin: 10px;
+	border-radius: 5px;
+	padding-left: 10px;
+
+}
+
+.todo li{
+
+flex: 1;
+
+
+}
+
+.complte-button,.trash-button{
+
+
+font-size: 17px;
+padding: 5px;
+border: none;
+
+}
+
+.complte-button{
+
+	background-color: green;
+	color: white;
+}
+
+
+.fa-trash,.fa-check{
+
+
+
+	pointer-events: none;
+}
+
+.completed{
+
+	text-decoration: line-through;
+	opacity: 0.5;
+}
