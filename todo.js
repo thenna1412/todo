@@ -214,7 +214,7 @@ todos=[]
 
 console.log(todo.children);
 console.log(todo.children[0]);
-console.log(todo.children[0].innerhtml);
+console.log(todo.children[0].innerText);
 
 
 	const todoIndex=todo.children[0].innerText;
